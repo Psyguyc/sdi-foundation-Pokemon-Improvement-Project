@@ -1,0 +1,60 @@
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+
+#home-page {
+  text-align: center;
+}
+
+#pokemon-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  gap: 20px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.card {
+  width: 150px;
+  background-color: lightgray;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.card h3, .card h2 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+}
+
+#pokemon-page {
+  text-align: center;
+}
+
+#pokemon-page .card {
+  width: 400px;
+  margin: 20px auto;
+}
+
+#pokemon-page .card img {
+  width: 400px;
+  height: 400px;
+}
+
+#pokemon-moves {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+#pokemon-moves li {
+  margin: 5px 0;
+}
